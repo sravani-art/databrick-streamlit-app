@@ -1,0 +1,34 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sentence-transformers
+faiss-cpu
+openai
+streamlit
+aiofiles
+lxml
+git+https://github.com/toon-format/toon-python.git
+httpx
+PyPDF2
+python-docx
+
+# HTML parsing
+beautifulsoup4
+
+# Image + OCR
+Pillow
+pytesseract
+
+# YouTube metadata
+yt-dlp
+
+# Optional Cloud SDKs — enable if you add SharePoint / Drive processing
+boto3                # AWS S3
+office365-rest-python-client   # For SharePoint/OneDrive (optional)
+google-api-python-client       # For Google Drive (optional)
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+python-pptx
+openpyxl
+xlrd
